@@ -1,0 +1,24 @@
+<div class="button1">
+<button (click)="generateFlow()">Старт</button>
+</div>
+<h1>Сумма: {{sumArr}}</h1>
+<div class="block">
+  <div class="block1">
+    <h2>1 </h2>
+    <ul>
+      <li *ngFor="let id of firstArr">{{ id }}</li>
+    </ul>
+  </div>
+  <div class="block1">
+    <h2>2 </h2>
+    <ul>
+      <li *ngFor="let id of secondArr">{{ id }}</li>
+    </ul>
+  </div>
+  <div class="block1">
+    <h2>3 </h2>
+    <ul>
+      <li *ngFor="let id of thirdArr">{{ id }}</li>
+    </ul>
+  </div>
+</div>

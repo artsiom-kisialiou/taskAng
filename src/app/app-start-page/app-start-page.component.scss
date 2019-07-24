@@ -1,0 +1,17 @@
+.block {
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    transition: background-color 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    &:hover {
+        background-color: black;
+    }
+}
+
+[mat-icon-button] {
+    width: 200px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 5%;
+}
